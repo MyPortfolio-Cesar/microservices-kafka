@@ -24,3 +24,21 @@ services:
       KAFKA_JMX_PORT: 9991
     ports:
       - 9092:9092
+
+  microservice-api:
+    build: ./microservice-api
+    ports:
+      - "3001:3001"
+    depends_on: [kafka, mongo]
+    environment:
+      KAFKA_BROKER: "kafka:29092"
+      DATABASE_MONGO_URL: "mongodb://mongo/microservices-kafka"
+      PORT: 3001
+
+  microservice-validator:
+    build: ./microservice-validator
+    ports:
+      - "3002:3002"
+    depends_on: [kafka]
+    environment:
+      KAFKA_BROKER: "kafka:29092"

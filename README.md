@@ -1,23 +1,24 @@
-# Solución - César Torres Lara :smiley:
+# Microservice Transaction :smiley:
+
+El proyecto se centra en la gestión de transacciones financieras a través de microservicios. Hemos diseñado dos microservicios principales utilizando Node.js y TypeScript. El primero actúa como una REST API encargada de crear nuevas transacciones, mientras que el segundo se especializa en validar estas transacciones, asegurando que el monto no exceda un límite predeterminado, en nuestro caso, 1000 unidades monetarias.
+
+# Tecnologías Usadas
+
+<ol>
+  <ul><strong>Node.js y TypeScript</strong>: Node.js proporciona un entorno de ejecución de JavaScript del lado del servidor, mientras que TypeScript añade tipado estático para un desarrollo más seguro y mantenible.</ul>
+  <ul><strong>MongoDB</strong>: Utilizamos MongoDB como nuestra base de datos para almacenar las transacciones. Su flexibilidad y escalabilidad lo convierten en una elección ideal para aplicaciones modernas.</ul>
+  <ul><strong>Kafka</strong>: Implementamos Kafka como un sistema de mensajería para la comunicación entre nuestros microservicios. Esta tecnología nos permite construir una arquitectura de eventos robusta y tolerante a fallos.</ul>
+  <ul><strong>Docker Compose</strong>: Para facilitar el despliegue y la gestión de nuestro entorno de desarrollo en diferentes sistemas, utilizamos Docker Compose. Esta herramienta nos permite definir y ejecutar múltiples contenedores de manera eficiente.</ul>
+
+</ol>
+
+
+
+
 
 # Diagrama de Aplicaciones
 
 ![Diagrama de Aplicaciones](https://github.com/cesarxa14/app-nodejs-codechallenge/blob/feature/cesar/Diagrama%20de%20aplicaciones.png)
-
-# Herramientas
-
-He usado las siguientes herramientas para el desarrollo de mi reto técnico.
-
-<ol>
-  <ul><strong>VS Code</strong>: Editor de código fuente</ul>
-  <ul><strong>NodeJS</strong>: Entorno de ejecución Javascript en el servidor</ul>
-  <ul><strong>Typescript</strong>: Lenguaje de programación como extensión de Javascript, para el tipado de datos</ul>
-  <ul><strong>MongoDB</strong>: Sistema de datos NoSQL para el almacenamientos de datos</ul>
-  <ul><strong>Docker</strong>: Virtualiza las aplicaciones en contenedores para ejecutar en diferentes entornos</ul>
-  <ul><strong>Docker-compose</strong>: Permite gestionar multicontenedores de Docker mediante un archivo YAML</ul>
-  <ul><strong>Kafka</strong>: Proporciona una arquitectura de transmisión de datos entre microservicios</ul>
-  <ul><strong>Swagger</strong>: Permite diseñar, construir y documentar APIs de manera sencilla.</ul>   
-</ol>
 
 
 # Requerimientos Previos:
