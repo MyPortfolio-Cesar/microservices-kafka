@@ -33,11 +33,11 @@ No olvides tener los puertos **3001** y **3002** libres para poder ejecutar los 
 
 Para poder ejecutar la aplicación debe ubicar en la ruta raiz del proyecto y ejecutar en la consola el siguiente comando: `docker-compose up -d`. De esta forma se empezaran a iniciar en segundo plano los contenedores definidos en el archivo **docker-compose.yml**.
 
-![Docker containers](https://github.com/cesarxa14/app-nodejs-codechallenge/blob/feature/cesar/Docker%20screenshot.png)
+![Docker containers](https://github.com/MyPortfolio-Cesar/microservices-kafka/blob/master/assets/Docker%20containers.png)
 
-![Microservicio Transaction](https://github.com/cesarxa14/app-nodejs-codechallenge/blob/feature/cesar/Microservice%20transaction%20docker%20log.png)
+![Microservicio Api](https://github.com/MyPortfolio-Cesar/microservices-kafka/blob/master/assets/Microservice%20API.png)
 
-![Microservicio Antifraud](https://github.com/cesarxa14/app-nodejs-codechallenge/blob/feature/cesar/Microservice%20antifraud%20docker%20log.png)
+![Microservicio Validator](https://github.com/MyPortfolio-Cesar/microservices-kafka/blob/master/assets/Microservice%20Validator.png)
 
 
 
@@ -45,7 +45,7 @@ Para poder ejecutar la aplicación debe ubicar en la ruta raiz del proyecto y ej
 
 Swagger se encuentra ubicado en `http://localhost:3001/documentation/`.
 
-![Swagger](https://github.com/cesarxa14/app-nodejs-codechallenge/blob/feature/cesar/Swagger%20screenshot.png)
+![Swagger](https://github.com/MyPortfolio-Cesar/microservices-kafka/blob/master/assets/Swagger%20API%20REST.png)
 
 # Observaciones
 
