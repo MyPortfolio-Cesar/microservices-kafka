@@ -1,6 +1,6 @@
 # Microservice Transaction :smiley:
 
-El proyecto se centra en la gestión de transacciones financieras a través de microservicios. Hemos diseñado dos microservicios principales utilizando Node.js y TypeScript. El primero actúa como una REST API encargada de crear nuevas transacciones, mientras que el segundo se especializa en validar estas transacciones, asegurando que el monto no exceda un límite predeterminado, en nuestro caso, 1000 unidades monetarias.
+El proyecto se centra en la gestión de transacciones financieras a través de microservicios. Hemos diseñado dos microservicios principales utilizando Node.js y TypeScript. El primero actúa como una REST API encargada de crear nuevas transacciones, mientras que el segundo se especializa en validar estas transacciones, asegurando que el monto no exceda un límite predeterminado, en nuestro caso, 1000 PEN (unidad monetaria elegida).
 
 # Tecnologías Usadas
 
@@ -18,7 +18,7 @@ El proyecto se centra en la gestión de transacciones financieras a través de m
 
 # Diagrama de Aplicaciones
 
-![Diagrama de Aplicaciones](https://github.com/cesarxa14/app-nodejs-codechallenge/blob/feature/cesar/Diagrama%20de%20aplicaciones.png)
+![Diagrama de Aplicaciones](https://github.com/MyPortfolio-Cesar/microservices-kafka/blob/master/assets/Diagrama%20de%20aplicaciones.png)
 
 
 # Requerimientos Previos:
